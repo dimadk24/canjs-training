@@ -1,0 +1,8 @@
+{
+  "name": "canjs-training",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "git@github.com:DimaDK24/canjs-training.git",
+  "author": "DimaDK24 <DimaKrutDK@ya.ru>",
+  "license": "MIT"
+}
