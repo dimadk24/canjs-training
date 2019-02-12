@@ -9,7 +9,7 @@ import 'can/list/sort';
 import 'can/map/attributes';
 import 'can/map/backup';
 import 'can/map/validations';
+import './components/hello-world/hello-world';
 
-console.log(can);
-console.log('hello world');
-document.querySelector('h1').innerText = 'Hello world from js';
+const template = can.mustache('<hello-world></hello-world');
+document.body.append(template({}));
