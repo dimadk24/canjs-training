@@ -12,4 +12,4 @@ import 'can/map/validations';
 import './components/hello-world/hello-world';
 
 const template = can.mustache('<hello-world></hello-world');
-document.body.append(template({}));
+document.getElementById('app').append(template({}));
